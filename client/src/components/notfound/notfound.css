@@ -1,0 +1,72 @@
+.notfound-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	background-color: #031f39;
+	padding-inline: 2rem;
+	box-sizing: border-box;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.notfound-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	max-width: 1000px;
+}
+
+.notfound-img {
+	width: 500px;
+	max-width: 100%;
+	border-radius: 25px;
+	/* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+}
+
+.notfound-text {
+	text-align: left;
+	font-family: monospace;
+	color: #ff7b00;
+	max-width: 500px;
+}
+
+.notfound-text h1 {
+  font-family: monospace;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.notfound-text p {
+  font-family: monospace;
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+	line-height: 1.5;
+}
+
+.notfound-btn {
+	background-color: #d3d8dc;
+	padding: 15px 30px;
+	border-radius: 15px;
+	border: none;
+	font-family: monospace;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.notfound-btn:hover {
+	background-color: #c0c6cc;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
